@@ -1,0 +1,63 @@
+*{
+    -fx-font-size: 17px;
+    -fx-text-fill:rgb(186, 203, 220);
+    -fx-font-family: 'Verdana';
+    -fx-padding: 10px;
+    -fx-background-color:rgb(0, 11, 37);
+}
+
+.label{
+    -fx-font-size: 15px;
+    -fx-text-fill:rgb(186, 203, 220);
+    -fx-font-family: 'Verdana';
+    -fx-padding: 7px;
+}
+
+.btn{
+    -fx-background-color: rgb(0, 19, 64);
+    -fx-border-color: rgb(186, 203, 220);
+    -fx-border-width: 2px;
+    -fx-text-fill: rgb(186, 203, 220);
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.btn:hover{
+    -fx-background-color: rgb(6, 30, 86);
+}
+
+.btn:armed{
+    -fx-background-color: rgb(186, 203, 220);
+    -fx-border-color: rgb(6, 30, 86);
+    -fx-text-fill: rgb(0, 19, 64);
+}
+
+.canva{
+    -fx-background-color: rgb(0, 11, 37);
+    -fx-border-color: rgb(186, 203, 220);
+    -fx-border-width: 2px;
+    -fx-text-fill: rgb(186, 203, 220);
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.text-field {
+    /* -fx-background-color: rgb(0, 25, 84);     */
+    -fx-font-size: 17px;
+    -fx-text-fill:rgb(186, 203, 220);
+    -fx-font-family: 'Verdana';
+    -fx-padding: 7px;
+    -fx-border-color: #001954;
+    -fx-border-width: 5px;
+}
+
+
+.text .content{
+    -fx-background-color: rgb(0, 25, 84);
+    -fx-font-size: 17px;
+    -fx-text-fill:rgb(186, 203, 220);
+    -fx-font-family: 'Verdana';
+    -fx-padding: 7px;
+    -fx-border-color: rgb(0,0,0);
+    -fx-border-width: 1px;
+}
